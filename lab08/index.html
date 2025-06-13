@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lab 8</title>
+    <script src='main.js' type="module"></script>
+    <script src='models.js' type="module"></script>
+    <script src='utils.js' type="module"></script>
+    <script src='bezier.js' type="module"></script>
+    Samples:
+    <select id="samples" default="5">
+        <option value="5" selected="selected">5</option>
+        <option value="10">10</option>
+        <option value="15">15</option>
+        <option value="20">20</option>
+        <option value="30">30</option>
+        <option value="40">40</option>
+        <option value="50">50</option>
+        <option value="75">75</option>
+    </select>
+</head>
+
+<body>
+    <div>
+        <button id="new">New Spline</button>
+        <button id="move">Move Points</button>
+        <button id="add">Add New Points</button>
+        <button id="remove">Remove Points</button>
+        <button id="bezier">Bezier</button>
+        <button id="bspline">B-Spline</button>
+        <label for="vehicle1">clamp:</label>
+        <input type="checkbox" id="clamp">
+    </div>
+    <div>
+        <canvas id="canvas" width="600" height="600"></canvas>
+    </div>
+</body>
+
+</html>
