@@ -3,7 +3,7 @@ Personal solutions to spring 2025 DAT200 labs at the University of Agder.
 
 > **Academic honesty note:** These solutions are shared for learning purposes only! Do not submit them as your own coursework.
 
-| Lab Assignment | Descriptopn |
+| Lab Assignment | Description |
 | -------------- | ----------- |
 | `lab01`        | Basic HTML5 drawing and interactions. |
 | `lab02`        | Canvas sketches that generate procedural geometric patterns.
